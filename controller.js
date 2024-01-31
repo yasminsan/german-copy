@@ -1,6 +1,6 @@
-const { getTranscription } = require("./services/transcriber");
-const { getAnswer } = require("./services/answerer");
-const { toSpeech } = require("./services/speaker");
+const { getTranscription } = require("./transcriber");
+const { getAnswer } = require("./answerer");
+const { toSpeech } = require("./speaker");
 
 async function transcribe(req, res) {
   try {
